@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #131a22;
+    color: #E1E1E1;
+}
+.nav-bar{
+    height: 5rem;
+    display: flex;
+}
+.title{
+    height: 5rem;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    gap: 1rem;
+}
+
+#title{
+    line-height: 5rem;
+    color: #E1E1E1;
+    font-size: 2rem;
+}
+.overview{
+    height: 5rem;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.page-overview{
+    color: #E1E1E1;
+    text-decoration: none;
+    font-size: 1.25rem;
+    line-height: 5rem;
+}
+.page-overview:hover{
+    text-decoration: underline;
+    color: antiquewhite;
+}
+.main{
+    height: 5rem;
+    width: 100%;
+
+}
+#logo{
+    height: 3.15rem;
+    width: 3.15rem;
+    border-radius: 50%;
+    margin-top: 1.05rem;
+}
+#heading{
+    line-height: 5rem;
+    font-size: 2.5rem;
+    color: #E1E1E1;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+
+#loca-tion{
+    height: 200px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 200px;
+    color: #e1e1e1;
+    text-align: center;
+}
+#location{
+    font-size: 35px;
+    color: #e1e1e1;
+    text-decoration: none;
+    margin-top: 15px;
+}
+#maintxt{
+    margin-top: 35px;
+    font-size: 21px;
+}
+#email{
+    height: 150px;
+    width: 300px;
+    margin-left: 200px;
+    color: #E1E1E1;
+    display: flex;
+}
+#logo1{
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+#data{
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+#data1{
+    font-size: 32px;
+}
+#data2{
+    font-size: 21px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#facebook{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 2.9rem;
+    color: #E1E1E1;
+}
+#youtube{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 2.9rem;
+    color: #E1E1E1;
+}
+#linkedin{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 2.9rem;
+    color: #E1E1E1;
+}
+#instagram{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 2.9rem;
+    color: #E1E1E1;
+}
+#main2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+#copyright{
+    font-size: 1.4rem;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+

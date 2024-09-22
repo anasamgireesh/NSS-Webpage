@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #131a22;
+    color: #E1E1E1;
+}
+.nav-bar{
+    height: 5rem;
+    display: flex;
+    
+}
+.title{
+    height: 5rem;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    gap: 1rem;
+}
+#logo{
+    height: 3.15rem;
+    width: 3.15rem;
+    border-radius: 50%;
+    margin-top: 1.05rem;
+}
+#title{
+    line-height: 5rem;
+    color: #E1E1E1;
+    font-size: 2rem;
+}
+.overview{
+    height: 5rem;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.page-overview{
+    color: #E1E1E1;
+    text-decoration: none;
+    font-size: 1.25rem;
+    line-height: 5rem;
+}
+.page-overview:hover{
+    text-decoration: underline;
+    color: antiquewhite;
+}
+
+main{
+    height: 700px;
+    width: 100%;
+    
+}
+
+#content-title{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 4rem;
+}
+#content{
+    font-size: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+#content2{
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-left: 350px;
+    margin-bottom: 3rem;
+}
+#main1{
+    height: 600px;
+    
+}
+@keyframes fade-inout {
+    0%{ opacity: 0;}
+    100%{opacity: 1;}
+}
+
+#main1{
+    animation: fade-inout 3s initial;
+}
+
+.social-mediahandles{
+    position: relative;
+    top: 2.6rem;
+}
+#facebook{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 2.6rem;
+    color: #E1E1E1;
+}
+#youtube{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 2.6rem;
+    color: #E1E1E1;
+}
+#linkedin{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 2.6rem;
+    color: #E1E1E1;
+}
+#instagram{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 2.6rem;
+    color: #E1E1E1;
+}
+#main2{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+#copyright{
+    margin-top: 6.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+}

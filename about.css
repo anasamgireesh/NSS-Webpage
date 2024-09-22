@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #131a22;
+    color: #E1E1E1;
+}
+.nav-bar{
+    height: 5rem;
+    display: flex;
+}
+.title{
+    height: 5rem;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    gap: 1rem;
+}
+#logo{
+    height: 3.15rem;
+    width: 3.15rem;
+    border-radius: 50%;
+    margin-top: 1.05rem;
+}
+#title{
+    line-height: 5rem;
+    color: #E1E1E1;
+    font-size: 2rem;
+}
+.overview{
+    height: 5rem;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.page-overview{
+    color: #E1E1E1;
+    text-decoration: none;
+    font-size: 1.25rem;
+    line-height: 5rem;
+}
+.page-overview:hover{
+    text-decoration: underline;
+    color: antiquewhite;
+}
+.main{
+    height: 5rem;
+    width: 100%;
+}
+#heading{
+    line-height: 5rem;
+    font-size: 2.5rem;
+    color: #E1E1E1;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+#content{
+    height: 879px;
+    width: 712px;
+    border: none;
+    position: relative;
+    top: 35px;
+    left: 110px;
+    box-shadow: 5px 5px 5px #666666;
+    margin-bottom: 50px;
+}
+#row1{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+#logo1{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-image: url("https://nss.nitt.edu/NSSlogo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+#main-content
+{
+    font-size: 22px;
+    position: relative;
+    top: 45px;
+}

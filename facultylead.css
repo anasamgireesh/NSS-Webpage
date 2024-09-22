@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #131a22;
+    color: #E1E1E1;
+}
+.nav-bar{
+    height: 5rem;
+    display: flex;
+}
+.title{
+    height: 5rem;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    gap: 1rem;
+}
+#logo{
+    height: 3.15rem;
+    width: 3.15rem;
+    border-radius: 50%;
+    margin-top: 1.05rem;
+}
+#title{
+    line-height: 5rem;
+    color: #E1E1E1;
+    font-size: 2rem;
+}
+.overview{
+    height: 5rem;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.page-overview{
+    color: #E1E1E1;
+    text-decoration: none;
+    font-size: 1.25rem;
+    line-height: 5rem;
+}
+.page-overview:hover{
+    text-decoration: underline;
+    color: antiquewhite;
+}
+
+.main{
+    height: 5rem;
+    width: 100%;
+}
+#heading{
+    line-height: 5rem;
+    font-size: 2.5rem;
+    color: #E1E1E1;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+main{
+    height: 1200px;
+}
+#main1{
+    height: 1000px;
+}
+#row1{
+    height: 500px;
+    width: 100%;
+}
+#faculty1{
+    height: 450px;
+    width: 300px;
+    position: relative;
+    top: 35px;
+    margin: auto;
+    box-shadow: 5px 5px 5px #666665;
+    
+}
+#fl1{
+    height: 380px;
+    width: 300px;
+}
+#name1{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    background-color: #E1E1E1;
+}
+#position1{
+    font-size: 20px;
+    color: #E1E1E1;
+    text-align: center;
+    margin-top: 10px;
+}
+#row2{
+    height: 500px;
+    width: 100%;
+   display: flex;
+   justify-content: space-around;
+    
+   
+}
+.faculty2{
+    height: 350px;
+    width: 220px;
+    position: relative;
+    top: 50px;
+    box-shadow: 5px 5px 5px #666665;
+}
+.fl2{
+    height: 280px;
+    width: 220px;
+}
+
+#name2{
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    background-color: #E1E1E1;
+    margin-top: 2px;
+
+}
+#name3{
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    margin-top: 2px;
+    background-color: #E1E1E1;
+
+}
+#name4{
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    margin-top: 2px;
+    background-color: #E1E1E1;
+
+}
+#name5{
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    margin-top: 2px;
+    background-color: #E1E1E1;
+
+}
+#name6{
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    margin-top: 2px;
+    background-color: #E1E1E1;
+
+}
+#position2{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+#position3{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+#position4{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+#position5{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+#position6{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
